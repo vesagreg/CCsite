@@ -68,6 +68,11 @@ h3 {
 	margin-bottom: 40px;
 }
 
+i {
+	margin-top: 2rem;
+	font-size: 35px;
+}
+
 // navigation
 
 .navbar {
@@ -81,6 +86,7 @@ h3 {
 	}
 
 	.navbar-brand {
+		margin-bottom: 12px;
 		letter-spacing: 1px;
 		transition: letter-spacing 0.3s linear;
 	}
@@ -109,6 +115,10 @@ h3 {
 
 .navbar-toggler {
 	border: 1px solid $secondColor;
+	i {
+		font-size: 12px;
+		margin-top: 0;
+	}
 }
 
 .navbar-toggler:focus {
@@ -125,6 +135,10 @@ h3 {
 .shadow-bg {
 	background-color: rgb(0, 0, 0);
 	opacity: 90%;
+}
+
+.navbar-brand i {
+	font-size: 12px;
 }
 
 // header
@@ -284,6 +298,17 @@ header {
 	z-index: -5;
 }
 
+.product-line-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 60%;
+	z-index: -5;
+}
+
 // carousel
 
 .md {
@@ -413,6 +438,53 @@ article {
 	transform: matrix(1.1, 0, 0, 1.1, 0, 0);
 }
 
+.contact-item {
+	font-size: $paragraphSizePhone;
+
+	.underline-third-color{
+		margin-bottom: 10px;
+	}
+	
+}
+
+// soft
+
+.baner {
+	margin-top: 30px;
+}
+
+.soft {
+	font-size: $paragraphSizePhone;
+}
+
+.product-line {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-image: url('../img/BinarySmall.webp');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	padding: 0;
+	z-index: 0;
+	color: $secondColor;
+	img {
+		width: 100px;
+		margin: 15px 0;
+	}
+}
+
+// partners
+
+.partners {
+	img {
+		height: 50px;
+		width: auto;
+		padding: 10px 20px;
+	}
+}
+
 // media
 
 @media screen and (min-width: 990px) {
@@ -489,5 +561,25 @@ article {
 	.contact-form-area,
 	.btn-outline-light {
 		font-size: $paragraphSizeNormal;
+	}
+
+	.contact-item {
+		font-size: 18px
+	}
+	
+
+	// soft
+
+	.soft {
+		font-size: $paragraphSizeNormal;
+		overflow: hidden;
+	}
+
+	.product-line {
+		background-image: url('../img/BinaryBig.webp');
+
+		img {
+			width: 200px;
+		}
 	}
 }
