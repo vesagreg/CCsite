@@ -1,0 +1,41 @@
+@use './reset' as *;
+
+$firstColor: #f79e00;
+$secondColor: rgb(252, 248, 248);
+$paragraphSizeNormal: 14px;
+$paragraphSizePhone: 12px;
+$h4SizeNormal: 16px;
+$h4SizePhone: 14px;
+$mdwidth: 50%;
+$nettoColor: #f7d10c;
+$bruttoColor: #2319f7;
+$thirdColor: #2319f7;
+
+
+
+body {
+	font-family: 'Merriweather', sans-serif;
+	position: relative;
+    background-color: $secondColor;
+    font-size: 14px;
+    height: auto;
+    
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    text-indent: 20px;
+    
+    h1, h2 {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    ul {
+        list-style-position: outside;
+        list-style-type: circle;
+    }
+}

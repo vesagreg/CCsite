@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+body {
+  font-family: "Merriweather", sans-serif;
+  position: relative;
+  background-color: rgb(252, 248, 248);
+  font-size: 14px;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+  text-indent: 20px;
+}
+.wrapper h1, .wrapper h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+.wrapper ul {
+  list-style-position: outside;
+  list-style-type: circle;
+}/*# sourceMappingURL=rodo.css.map */

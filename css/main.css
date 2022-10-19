@@ -644,10 +644,16 @@ article {
 .terminals .underline {
   margin-bottom: 30px;
 }
+.terminals .terminal-box2 ul {
+  font-size: 12px;
+  list-style-position: outside;
+  line-height: 30px;
+  text-align: left;
+}
 .terminals .terminals-wraper {
   width: 100%;
   margin: 0 auto;
-  align-items: center;
+  justify-content: center;
 }
 .terminals .terminals-wraper h3 {
   margin-top: 100px;
@@ -672,6 +678,67 @@ article {
   font-size: 12px;
   list-style-position: outside;
   line-height: 30px;
+}
+
+footer {
+  background-color: #000;
+  opacity: 90%;
+}
+footer .underline-footer {
+  width: 60%;
+  background-color: #f79e00;
+  height: 1px;
+  margin: 0 auto;
+  opacity: 80%;
+}
+footer .copyrigt {
+  width: 100%;
+  display: flex;
+  font-size: 12px;
+  padding: 20px;
+  justify-content: center;
+}
+footer .copyrigt a {
+  color: rgb(252, 248, 248);
+  padding: 0;
+}
+footer .copyrigt i {
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 0;
+}
+footer .copyrigt p {
+  margin: 0 10px 0 0;
+  color: rgb(252, 248, 248);
+}
+footer .rodo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  font-size: 12px;
+  color: rgb(252, 248, 248);
+}
+footer .rodo a {
+  color: rgb(252, 248, 248);
+  padding: 10px;
+  margin: 0 10px 0 10px;
+}
+footer .facebook {
+  display: flex;
+  justify-content: center;
+  color: rgb(252, 248, 248);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+footer .facebook i {
+  display: block;
+  margin-top: 0;
+  color: rgb(252, 248, 248);
+}
+footer .facebook p {
+  padding-top: 10px;
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 990px) {
@@ -736,32 +803,10 @@ article {
   .terminals {
     font-size: 14px;
   }
-  .terminals h3 {
-    margin-top: 50px;
-  }
-  .terminals .terminals-wraper {
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-  }
-  .terminals .terminals-wraper h3 {
-    margin-top: 100px;
-  }
-  .terminals .terminals-wraper .terminal-box {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .terminals .terminals-wraper .terminal-box h6 {
-    color: #f79e00;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 20px;
+  .terminals .terminal-box2 ul {
+    font-size: 14px;
   }
   .terminals .terminals-wraper .terminal-box ul {
     font-size: 14px;
-    list-style-position: outside;
-    line-height: 30px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -495,10 +495,21 @@ article {
 	.underline {
 		margin-bottom: 30px;
 	}
+
+	.terminal-box2 {
+		ul {
+			font-size: $paragraphSizePhone;
+			list-style-position: outside;
+			line-height: 30px;
+			text-align: left;
+		}
+	}
+
 	.terminals-wraper {
 		width: 100%;
 		margin: 0 auto;
-		align-items: center;
+		justify-content: center;
+
 		h3 {
 			margin-top: 100px;
 		}
@@ -508,11 +519,10 @@ article {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			
-			img{
+
+			img {
 				width: 200px;
 				height: auto;
-
 			}
 
 			h6 {
@@ -530,6 +540,80 @@ article {
 		}
 	}
 }
+
+//  footer
+
+footer {
+	background-color: #000;
+	opacity: 90%;
+
+	.underline-footer {
+		width: 60%;
+		background-color: $firstColor;
+		height: 1px;
+		margin: 0 auto;
+		opacity: 80%;
+	}
+
+	.copyrigt {
+		width: 100%;
+		display: flex;
+		font-size: $paragraphSizePhone;
+		padding: 20px;
+		justify-content: center;
+
+		a {
+			color: $secondColor;
+			padding: 0;
+		}
+
+		i {
+			font-size: $paragraphSizePhone;
+			display: inline-block;
+			margin-top: 0;
+		}
+
+		p {
+			margin: 0 10px 0 0;
+			color: $secondColor;
+		}
+	}
+
+	.rodo {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 10px;
+		font-size: $paragraphSizePhone;
+		color: $secondColor;
+		
+		a {
+			color: $secondColor;
+			padding: 10px;
+			margin: 0 10px 0 10px;
+		}
+	}
+
+	.facebook {
+		display: flex;
+		justify-content: center;
+		color: $secondColor;
+		font-size: $paragraphSizeNormal;
+		margin-bottom: 10px;
+
+		i {
+			display: block;
+			margin-top: 0;
+			color: $secondColor;
+		}
+
+		p {
+			padding-top: 10px;
+			margin-right: 10px;
+		}
+	} 
+}
+
 // media
 
 @media screen and (min-width: 990px) {
@@ -631,39 +715,19 @@ article {
 
 	.terminals {
 		font-size: $paragraphSizeNormal;
-		h3 {
-			margin-top: 50px;
-		}
-		.terminals-wraper {
-			width: 100%;
-			margin: 0 auto;
-			align-items: center;
-			h3 {
-				margin-top: 100px;
+
+		.terminal-box2 {
+			ul {
+				font-size: $paragraphSizeNormal;
 			}
-	
+		}
+
+		.terminals-wraper {
 			.terminal-box {
-				margin-top: 30px;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-	
-				h6 {
-					color: $firstColor;
-					font-size: 16px;
-					text-align: center;
-					margin-bottom: 20px;
-				}
-	
 				ul {
 					font-size: $paragraphSizeNormal;
-					list-style-position: outside;
-					line-height: 30px;
 				}
 			}
 		}
 	}
-	
-
-	
 }
