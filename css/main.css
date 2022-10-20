@@ -483,52 +483,55 @@ header {
   z-index: -5;
 }
 
-.md {
-  width: 100%;
-}
-
-.devices .carousel-item {
-  position: relative;
-  margin-top: 3rem;
-}
-.devices .carousel-caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  background-color: rgba(133, 133, 133, 0.7);
-  padding: 20px 0;
-}
-.devices .carousel-caption h5 {
-  font-size: 14px;
-  color: red;
-  font-weight: 700;
-}
-.devices .carousel-caption p {
+.devices {
   font-size: 12px;
 }
-.devices .carousel-caption a {
-  color: rgb(252, 248, 248);
-  transition: color 0.5s, letter-spacing 0.3s;
+.devices h3 {
+  margin-top: 30px;
 }
-.devices .carousel-caption .netto {
-  color: #f7d10c;
-  font-weight: bold;
+.devices .underline {
+  margin-bottom: 30px;
 }
-.devices .carousel-caption .brutto {
-  color: #2319f7;
-  font-weight: bold;
+.devices .devices-box2 ul {
+  font-size: 12px;
+  list-style-position: outside;
+  line-height: 30px;
+  text-align: left;
 }
-.devices .carousel-caption a:hover {
+.devices .devices-wraper {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.devices .devices-wraper h3 {
+  margin-top: 100px;
+}
+.devices .devices-wraper .devices-box {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.devices .devices-wraper .devices-box img {
+  width: 300px;
+  height: 300px;
+}
+.devices .devices-wraper .devices-box h6 {
   color: #f79e00;
-  letter-spacing: 0.5px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.devices .carousel-indicators {
-  padding-bottom: 10px;
+.devices .devices-wraper .devices-box ul {
+  font-size: 12px;
+  list-style-position: outside;
+  line-height: 30px;
 }
-.devices .carousel-control-next-icon,
-.devices .carousel-control-prev-icon {
-  background-color: #a09494;
-  opacity: 40%;
+.devices .devices-wraper .devices-box a {
+  color: #2319f7;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .new {
@@ -769,13 +772,20 @@ footer .facebook p {
   .aboutus-hero p {
     font-size: 14px;
   }
-  .md {
-    width: 50%;
+  .devices {
+    font-size: 14px;
   }
-  .devices .carousel-caption h5 {
-    font-size: 16px;
+  .devices .devices-box2 ul {
+    font-size: 14px;
   }
-  .devices .carousel-caption p {
+  .devices .devices-wraper .devices-box img {
+    width: 450px;
+    height: px;
+  }
+  .devices .devices-wraper .devices-box h6 {
+    color: #f79e00;
+  }
+  .devices .devices-wraper .devices-box ul {
     font-size: 14px;
   }
   article {
